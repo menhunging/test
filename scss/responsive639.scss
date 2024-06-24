@@ -1,0 +1,36 @@
+@media (max-width: 639px) {
+  .why-block__list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .why-block__item {
+    height: auto;
+    padding-top: calc(280 / 320 * 100%);
+  }
+
+  .grettings-content__inner {
+    padding: 15px;
+  }
+
+  h1,
+  .caption--h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  h2,
+  .caption--h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .why-block {
+    padding: 30px 0;
+  }
+}

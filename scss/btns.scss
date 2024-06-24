@@ -1,0 +1,62 @@
+.btn {
+  -webkit-appearance: none;
+  border-radius: 8px;
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: $colorWhite;
+  text-align: center;
+  padding: 24px 32px;
+  border: 1px solid $colorYellow;
+  background-color: $colorYellow;
+  display: inline-block;
+  transition: all 0.3s;
+
+  svg {
+    @include transition(fill 0.3s);
+
+    path {
+      fill: $colorBlack;
+      @include transition(fill 0.3s);
+    }
+  }
+
+  &--gray {
+    background-color: rgba(208, 212, 217, 1);
+    border-color: rgba(208, 212, 217, 1);
+    color: rgba(50, 63, 79, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  &:hover {
+    border-color: rgba(208, 212, 217, 1);
+    background-color: rgba(208, 212, 217, 1);
+    color: rgba(50, 63, 79, 1);
+
+    svg {
+      path {
+        fill: $colorWhite;
+      }
+    }
+  }
+
+  .count {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    width: 28px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(62, 84, 106, 0.2);
+    border-radius: 8px;
+  }
+}
