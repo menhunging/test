@@ -101,7 +101,7 @@
 
 .why-block__list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
   margin-top: 30px;
 }
@@ -109,11 +109,12 @@
 .why-block__item {
   position: relative;
   @include invisLink;
-  height: 630px;
+  height: auto;
+  padding-top: calc(630 / 630 * 100%);
   transition: all 0.3s;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
 
   .name {

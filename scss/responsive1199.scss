@@ -2,4 +2,8 @@
   .grettings-content {
     max-width: 100%;
   }
+
+  .why-block__list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
