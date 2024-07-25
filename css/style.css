@@ -995,6 +995,20 @@ h3,
 .grettings-content .btn + .btn {
   margin-top: 0;
 }
+.grettings-content__contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+.grettings-content__contact a {
+  text-decoration: underline;
+  transition: text-decoration 0.3s;
+  text-underline-offset: 3px;
+}
+.grettings-content__contact a:hover {
+  text-decoration-color: transparent;
+}
 
 .why-block {
   padding: 50px 0;

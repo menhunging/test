@@ -92,6 +92,23 @@
       margin-top: 0;
     }
   }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+
+    a {
+      text-decoration: underline;
+      transition: text-decoration 0.3s;
+      text-underline-offset: 3px;
+
+      &:hover {
+        text-decoration-color: transparent;
+      }
+    }
+  }
 }
 
 .why-block {
