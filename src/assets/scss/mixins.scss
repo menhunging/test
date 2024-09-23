@@ -1,0 +1,34 @@
+@mixin invisLink {
+  position: relative;
+  z-index: 2;
+
+  & > a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+  }
+}
+
+@mixin after {
+  &::after {
+    content: "";
+    position: absolute;
+    transition: all 0.3s;
+    @content;
+  }
+}
+
+@mixin before {
+  &::before {
+    content: "";
+    position: absolute;
+    transition: all 0.3s;
+    @content;
+  }
+}

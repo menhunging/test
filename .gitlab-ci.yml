@@ -1,0 +1,15 @@
+deploy-production:
+  stage: deploy
+  only:
+    - main
+  script:
+    - cd /var/www/app2.mazoom.sa
+    - git fetch origin main
+    - git reset --hard FETCH_HEAD
+    - export NVM_DIR="$HOME/.nvm"
+    - "[ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\""
+    - nvm use 18
+    - npm i -f
+    - ./node_modules/.bin/vite build -m development
+  variables:
+    GIT_STRATEGY: none

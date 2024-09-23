@@ -1,0 +1,63 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  font-family: $fontAbel;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-family: $fontInter;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+a {
+  color: $colorDark;
+  text-decoration-skip-ink: none;
+  transition: all 0.3s;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration-color: transparent;
+  }
+}
+
+button {
+  text-decoration-skip-ink: none;
+  transition: all 0.3s;
+}
+
+.btn {
+  height: 44px;
+  text-align: center;
+  justify-content: center;
+  min-width: 94px;
+
+  &-dark {
+    --bs-btn-bg: #263238;
+  }
+
+  &-light {
+    --bs-btn-border-color: rgba(109, 109, 110, 0.3);
+    background-color: transparent;
+  }
+}
+
+ol,
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

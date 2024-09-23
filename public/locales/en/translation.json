@@ -1,0 +1,174 @@
+{
+  "base": {
+    "linkForgot": "Forgot your password?",
+    "or": "or"
+  },
+  "header": {
+    "language1": "Ar",
+    "language2": "En",
+    "textBalance": "Your current credits balance",
+    "nav": {
+      "events": "Events",
+      "messages": "Messages",
+      "contacts": "Contacts",
+      "premium": "Premium",
+      "profile": "My profile"
+    }
+  },
+  "login": {
+    "title": "Sign In",
+    "politic": {
+      "text": "By signing in you accept the",
+      "textLink": "Terms of Use and acknowledge the Privacy Policy and Cookie Policy."
+    },
+    "text": "Don't have an account yet?"
+  },
+  "signUp": {
+    "title": "Sign Up",
+    "text": "Already have an account?",
+    "alert": "You’ve successfully signed up. Please sign in using your credentials."
+  },
+  "loginWhatApp": {
+    "title": "Enter your phone number",
+    "titleTwo": "Enter a code",
+    "desc": "We will send the code",
+    "descTwo": "We sent a code to",
+    "back": "Back to the previous step",
+    "timer": "The code will expire in",
+    "text": "Didn't receive the code?",
+    "textLink": "Send the code again"
+  },
+  "forgot": {
+    "title": "Forgot your password?",
+    "alert": "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
+  },
+  "buttons": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "exit": "Exit",
+    "confirm": "Confirm",
+    "resetPassword": "Reset password",
+    "downloadApp": "Download app",
+    "loadMore": "Load more",
+    "createEvent": "Create event",
+    "apply": "apply",
+    "resend": "Resend",
+    "topUP": "Top up",
+    "upgrade": "Upgrade",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "change": "Change",
+    "addGuests": "add guests",
+    "importGuests": "Import guests",
+    "deleteSelected": "Delete selected",
+    "goToContacts": "go to contacts",
+    "upload": "Upload File"
+  },
+  "errors": {
+    "codePhoneError": "You entered the wrong code. Try again",
+    "required": "Required field",
+    "fieldRequired": "This field is required"
+  },
+  "placeholder": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "search": "Search",
+    "phone": "Phone",
+    "phoneNumber": "Phone number",
+    "number": "Enter your phone number",
+    "lastNameText": "Indicate your last name",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "suffix": "Suffix"
+  },
+  "events": {
+    "caption": "All Created Events",
+    "filter": {
+      "title": "Filter",
+      "status": {
+        "title": "Status",
+        "all": "All",
+        "approved": "Approved",
+        "updated": "Updated",
+        "draft": "Draft"
+      }
+    },
+    "sort": {
+      "MostRecent": "Most recent",
+      "TheOldest": "The oldest"
+    },
+    "noEvent": {
+      "noEvent": "No Event Yet",
+      "noEventTooltip": "To continue working you need to confirm your email",
+      "text": "Create and manage your events and invite all the friends in your contacts with ease.",
+      "alert": {
+        "linkText": "Don't get the email?",
+        "text": "Please confirm your email by following the link in the letter"
+      }
+    }
+  },
+  "profile": {
+    "titlePageProfile": "My Profile",
+    "availableBalance": "Available Balance",
+    "membershipPlan": "Membership Plan",
+    "personalTitle": "Personal Information",
+    "passwordTitle": "Password",
+    "credits": "credits",
+    "tooltip": {
+      "credits": "Use credits to send invitation (1 credit = 1 invitation)",
+      "plan": "Upgrade your plan to get access to extra mazoom features"
+    }
+  },
+  "preview": {
+    "Mr": "Mr John Doe",
+    "previewTab1Text": "We are pleased to invite you to"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "showTitle": "Show",
+    "sorting": {
+      "title": "Sorting",
+      "name": "name",
+      "email": "email",
+      "phone": "phone",
+      "phoneNumber": "phone number",
+      "date": "date",
+      "dateCreation": "date of creation",
+      "actions": "Actions"
+    },
+    "addGuestPopup": {
+      "title": "Add guests",
+      "text": "Please enter the essential information about guest"
+    },
+    "editGuestPopup": {
+      "title": "Edit Guest",
+      "text": "Please enter the essential information about guest"
+    },
+    "importGuestPopup": {
+      "title": "Import guests"
+    },
+    "dragAndDrop": {
+      "title": "Drag and Drop or choose file to upload your guest list",
+      "desc": "Upload the file as a .csv, .xlsx, or .xls",
+      "text": "Need to upload a file",
+      "error": "The format and size of the uploaded file exceeds the permissible value"
+    },
+    "example": {
+      "text": "You can use our template to fill in",
+      "text2": "You can upload your file. Before uploading a file, make sure it meets all requirements",
+      "or": "or",
+      "linkDownload": "Download file",
+      "seeExample": "See example"
+    }
+  },
+  "notcontacts": {
+    "title": "No Contacts Yet",
+    "text": "You can add contacts manually or upload a file",
+    "import": "Import Contacts",
+    "add": "add Contacts"
+  }
+}
